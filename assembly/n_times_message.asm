@@ -168,7 +168,7 @@ section .data
 	lenRepetat equ $-msgRepetat
 	
 	counter db 0
-	;word deoarece am nevoie de 2 octeti pentru comparatia cu ax
+	;tensCounter is a word as 2 bytes are needed for an ax comparison
 	tensCounter dw 0
 
 	SYS_EXIT equ 1
